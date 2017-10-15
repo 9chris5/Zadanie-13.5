@@ -4,6 +4,6 @@ function rolex(time) {
 	total %= 3600;
 	miutes = Math.floor(total / 60);
 	seconds = total % 60;
-	process.stdout.write(hours + ' hrs ' + miutes + ' mins ' + seconds + ' secs ');
+	return (hours + ' hrs ' + miutes + ' mins ' + seconds + ' secs ');
 }
 exports.print = rolex;
